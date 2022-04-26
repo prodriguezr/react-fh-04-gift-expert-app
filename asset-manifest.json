@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-fh-04-gift-expert-app/static/css/main.496ce37b.css",
+    "main.js": "/react-fh-04-gift-expert-app/static/js/main.152b0ba8.js",
+    "index.html": "/react-fh-04-gift-expert-app/index.html",
+    "main.496ce37b.css.map": "/react-fh-04-gift-expert-app/static/css/main.496ce37b.css.map",
+    "main.152b0ba8.js.map": "/react-fh-04-gift-expert-app/static/js/main.152b0ba8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.496ce37b.css",
+    "static/js/main.152b0ba8.js"
+  ]
+}
