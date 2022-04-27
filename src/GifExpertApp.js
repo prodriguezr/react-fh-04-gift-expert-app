@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { AddCategory, GiftGrid } from './components';
-export const GiftExpertApp = () => {
+export const GifExpertApp = () => {
   const [categories, setCategories] = useState(['One Punch']);
 
   return (
     <>
-      <h2>GiftExpert App</h2>
+      <h2>GifExpert App</h2>
       <AddCategory setCategories={setCategories} />
       <hr />
 

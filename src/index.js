@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { GiftExpertApp } from './GiftExpertApp';
+import { GifExpertApp } from './GifExpertApp';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<GiftExpertApp />);
+root.render(<GifExpertApp />);
