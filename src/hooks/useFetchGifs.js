@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import { getGifts } from '../helpers';
+import { getGifs } from '../helpers';
 
-export const useFetchGifts = (category) => {
+export const useFetchGifs = (category) => {
   const [state, setState] = useState({
     data: [],
     loading: true,
   });
 
   useEffect(() => {
-    getGifts(category).then((data) => {
+    getGifs(category).then((data) => {
       setState({
         data,
         loading: false,

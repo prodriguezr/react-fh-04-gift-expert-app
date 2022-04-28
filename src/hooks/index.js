@@ -1,1 +1,1 @@
-export * from './useFetchGifts';
+export * from './useFetchGifs';

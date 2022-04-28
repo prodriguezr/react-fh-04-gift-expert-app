@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <GifGrid/> It should show items when images are loaded 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      key="dggg54Jh"
+      title="Anything"
+      url="https://localhost/images/87.png"
+    />
+  </div>
+</Fragment>
+`;

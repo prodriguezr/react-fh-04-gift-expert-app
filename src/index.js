@@ -4,4 +4,5 @@ import { GifExpertApp } from './GifExpertApp';
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<GifExpertApp />);
+const defaulCategories = ['One Punch', 'Metallica'];
+root.render(<GifExpertApp defaulCategories={defaulCategories} />);

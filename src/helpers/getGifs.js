@@ -1,7 +1,9 @@
-export const getGifts = async (category) => {
+import PropTypes from 'prop-types';
+
+export const getGifs = async (category, limit = 10) => {
   const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(
     category
-  )}&limit=10&api_key=88k2WkSnyrXicsjWqlxlgf4NpSFvGZqV`;
+  )}&limit=${limit}&api_key=88k2WkSnyrXicsjWqlxlgf4NpSFvGZqV`;
   const resp = await fetch(url);
   const { data } = await resp.json();
 
@@ -14,4 +16,9 @@ export const getGifts = async (category) => {
   });
 
   return gifts;
+};
+
+getGifs.propTypes = {
+  category: PropTypes.string,
+  limit: PropTypes.number,
 };
